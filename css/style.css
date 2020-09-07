@@ -110,6 +110,7 @@ image-rendering: auto;
     height: 100%;
     background: #3586ff;
     overflow: hidden;
+    top:100%;
 }
 .section2 .weave
 {
@@ -146,7 +147,7 @@ transform: rotate(180deg);
     z-index: 998;
     opacity:0.2 ;
     animation-delay: -2s;
-    top: 15;
+    top: 15px;
 }
 .section2 .weave.weave4
 {
