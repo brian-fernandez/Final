@@ -18,13 +18,14 @@
     background: #fff;
     z-index: 1;
     flex-direction: column;
-    align-items: center;
+    
     justify-content: center;
     transition: 0.2s;
     visibility: hidden;
     opacity: 0;
-    text-align: inherit;
+    text-align: initial;
     padding: 135px;
+}
 
   }
   header ul li a 
