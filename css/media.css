@@ -2,6 +2,7 @@
   header
   {
     padding: 20px 40px;
+    z-index: 10000;
   }
   header .logo
   {
@@ -62,6 +63,13 @@
 }
   }
 
+  header
+{
+  padding: 5px;
+  z-index: 10000;
+  
+}
+
   @media screen and (max-width: 600px)
   {
     .section2
@@ -75,7 +83,9 @@
 }
   }
 
-  @media screen and (max-width: 400px)
+
+
+  @media screen and (max-width: 450px)
   {
     .section2
 {
@@ -87,6 +97,51 @@
     top:40%;
 }
   }
+  @media screen and (max-width: 320px)
+  {
+    .section2
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #3586ff;
+    overflow: hidden;
+    top:35%;
 }
 
+
+header .logo
+{
+  position: relative;
+  max-width: 10px;
+}
+header
+{
+  padding: 5px;
+  z-index: 10000;
+  
+}
+header ul
+ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.2s;
+  visibility: hidden;
+  opacity: 0;
+  text-align: initial;
+  padding: 25px;
+
+
+  }
+
+  
+}
+}
   
