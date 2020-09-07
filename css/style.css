@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 
 *
 {
@@ -62,7 +62,7 @@ header ul li a
     position: relative;
     width: 40px;
     height: 40px;
-    background: url(../menu.png);
+    background: url(img/menu.png);
     background-position: center;
     background-size: 30px;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ header ul li a
 }
 .toggleMenu.active
 {
-    background: url(../close.png);
+    background: url(img/close.png);
     background-position: center;
     background-size: 25px;
     background-repeat: no-repeat;
