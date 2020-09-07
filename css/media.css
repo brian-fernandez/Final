@@ -42,6 +42,7 @@
   .toggleMenu
   {
     visibility: visible;
+    opacity: 1;
   }
 }
   
