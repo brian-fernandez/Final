@@ -66,6 +66,7 @@ header ul li a
     background-size: 30px;
     background-repeat: no-repeat;
     z-index: 2;
+    
     cursor: pointer;
     visibility: hidden;
 
