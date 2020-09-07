@@ -72,7 +72,7 @@ header ul li a
 }
 .toggleMenu.active
 {
-    background-image: url("img/salir1.png");
+    background-image: url("/img/salir1.png");
     background-position: center;
     background-size: 25px;
     background-repeat: no-repeat;
