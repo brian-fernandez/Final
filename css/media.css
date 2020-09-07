@@ -23,6 +23,8 @@
     transition: 0.2s;
     visibility: hidden;
     opacity: 0;
+    text-align: inherit;
+    padding: 135px;
 
   }
   header ul li a 
