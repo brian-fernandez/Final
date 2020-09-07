@@ -62,7 +62,7 @@ header ul li a
     position: relative;
     width: 40px;
     height: 40px;
-    background-image: url(img/menu.png);
+    background: url(img/menu.png);
     background-position: center;
     background-size: 30px;
     background-repeat: no-repeat;
