@@ -1,4 +1,7 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,800&display=swap");
+
+
 *
 {
 margin: 0;
@@ -178,4 +181,45 @@ transform: rotate(180deg);
     {
         background-position-x: -1000px;
     }
+}
+
+.container
+{
+    margin: -10px 15%;
+}
+
+.container .titulo
+{
+    font-weight: 900;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0px 0px 11px rgb(0,0,0,0.1)
+
+}
+
+.trailer
+{
+   z-index:10000;
+    
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.trailer video
+{
+    max-width: 900px;
+    outline: none;
+    z-index: 1000000;
+    margin-right: 50px;
+    box-shadow:0px 0px 11px rgb(0,0,0,0.5);
+}
+.parafo
+{
+    font-size: 1.5em;
+    width: 500px;
+    text-align: justify;
 }
