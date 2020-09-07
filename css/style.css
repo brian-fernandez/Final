@@ -62,17 +62,18 @@ header ul li a
     position: relative;
     width: 40px;
     height: 40px;
-    background: url(img/menu.png);
+    background: url(../menu.png);
     background-position: center;
     background-size: 30px;
     background-repeat: no-repeat;
     z-index: 2;
     cursor: pointer;
     visibility: hidden;
+
 }
 .toggleMenu.active
 {
-    background: url(img/close.png);
+    background: url(../close.png);
     background-position: center;
     background-size: 25px;
     background-repeat: no-repeat;
