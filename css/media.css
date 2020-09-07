@@ -12,8 +12,13 @@
     left: 40px;
   }
 
-  video {
+  .video1 {
     display: none;
+  }
+  .video2
+  {
+    width: 100%;
+    display: block;
   }
   header .logo
   {

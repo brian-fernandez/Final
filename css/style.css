@@ -93,7 +93,7 @@ header ul li a
 }
 
 
-video
+.video1
 {
     
 top: 0;
@@ -209,7 +209,7 @@ transform: rotate(180deg);
     
     
 }
-.trailer video
+.trailer .video2
 {
     max-width: 900px;
     outline: none;
