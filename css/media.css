@@ -1,0 +1,47 @@
+@media screen and (max-width: 991px) {
+  header
+  {
+    padding: 20px 40px;
+  }
+  header .logo
+  {
+    position: relative;
+    max-width: 60px;
+  }
+  header ul 
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+
+  }
+  header ul li a 
+  {
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 0;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 0px;
+
+  }
+  header ul li a:hover
+  {
+    color:#081538
+  }
+  .toggleMenu
+  {
+    visibility: visible;
+  }
+}
+  
