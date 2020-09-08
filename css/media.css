@@ -43,7 +43,7 @@
     text-align: initial;
     padding: 135px;
 }
-
+}
 .section2
 {
   position: absolute;
@@ -51,7 +51,12 @@
     height: 100%;
     background: #3586ff;
     overflow: hidden;
-    top:10%;
+    top: 25%;
+}
+
+.container
+{
+  margin: -10px 5%;
 }
   
   header ul li a 
@@ -75,6 +80,18 @@
   }
 
 
+  .tittle2 .boliviaimg {
+    align-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 0px 19%;
+}
+.tittle2
+{
+  top: 100%;
+}
+
+
   @media screen and (max-width: 800px)
   {
     .section2
@@ -84,7 +101,7 @@
     height: 100%;
     background: #3586ff;
     overflow: hidden;
-    top:10%;
+    top:15%;
 }
   }
 
@@ -93,6 +110,10 @@
   padding: 5px;
   z-index: 10000;
   
+}
+.tittle2
+{
+  top: 90%;
 }
 
   @media screen and (max-width: 600px)
@@ -108,6 +129,46 @@
 }
   }
 
+  .tittle2 {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    display: grid;
+    
+}
+
+.tittle2 .caja1 {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.tittle2 .caja2 {
+  width: 100%;
+  border: 1px solid red;
+}
+.tittle2 .caja2 p {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 200;
+  font-size: 1em;
+  padding: 0px 70px;
+}
+
+.play {
+  cursor: pointer;
+  position: absolute;
+  top: 490px;
+  left: 50%;
+}
+
+.parafo {
+  font-size: 1.2em;
+}
+
+.tittle2 .caja1 img
+{
+margin: 0px 10%;
+}
 
 
   @media screen and (max-width: 450px)
@@ -122,6 +183,22 @@
     top:10%;
 }
   }
+
+
+  .tittle2 .caja1 img {
+    margin: 0px 5%;
+}
+
+.parafo {
+  font-size: 1em;
+  width: 400px;
+}
+.container .titulo {
+  font-weight: 900;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0px 0px 11px rgb(0,0,0,0.1);
+}
   @media screen and (max-width: 320px)
   {
     .section2
@@ -166,7 +243,29 @@ header ul
 
   }
 
-  
+  .tittle2 .caja1 h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.tittle2 .caja1 img {
+  margin: 0px 0px;
+  width: 320px;
+}
+
+.toggleMenu {
+  visibility: visible;
+  opacity: 1;
+  /* top: 0; */
+  position: absolute;
+  top: 0;
+  left: 85%;
+}
+.parafo {
+  font-size: 1em;
+  width: 270px;
 }
 }
+
   
