@@ -49,7 +49,7 @@ header ul{
 header ul li{
     list-style: none;
 }
-header ul li a 
+header ul li a
 {
     display: inline-block;
     color: #061e41;
@@ -62,6 +62,48 @@ header ul li a
 .active1
 {
     border-bottom:2px solid #061e41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header ul li a:hover
+{
+    border-bottom:2px solid #3586ff;
+    
+    
+    
 }
 .toggleMenu
 {
@@ -113,7 +155,7 @@ image-rendering: auto;
     height: 100%;
     background: #3586ff;
     overflow: hidden;
-    top:100%;
+    top:35%;
 }
 .section2 .weave
 {
@@ -185,7 +227,7 @@ transform: rotate(180deg);
 
 .container
 {
-    margin: -10px 15%;
+    margin: -10px 10%;
 }
 
 .container .titulo
@@ -222,4 +264,7 @@ transform: rotate(180deg);
     font-size: 1.5em;
     width: 500px;
     text-align: justify;
+    color: #2a2c2d;
+    font-family: 'Poppins';
+    font-weight: 100;
 }
