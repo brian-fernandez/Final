@@ -169,7 +169,7 @@
                 font-size: 1.2em;
               }
   
-              .tittle2 .caja1 img
+              .tittle2 .caja1 .boliviaimg
               {
               margin: 0px 10%;
               }
@@ -225,7 +225,7 @@
               font-size: 1.2em;
             }
 
-            .tittle2 .caja1 img
+            .tittle2 .caja1 .boliviaimg
             {
             margin: 0px 10%;
             }
@@ -245,7 +245,7 @@
             
 
 
-            .tittle2 .caja1 img {
+            .tittle2 .caja1 .boliviaimg {
               margin: 0px 5%;
           }
 
@@ -287,7 +287,7 @@
           display: grid;
         }
 
-        .tittle2 .caja1 img {
+        .tittle2 .caja1 .boliviaimg {
           width: auto;
           height: 330px;
         }
@@ -365,7 +365,7 @@
             width: 100%;
             display: grid;
           }
-          .tittle2 .caja1 img {
+          .tittle2 .caja1 .boliviaimg {
             
             
               width: auto;
@@ -435,7 +435,7 @@
               font-size: 1.5em;
           }
 
-          .tittle2 .caja1 img {
+          .tittle2 .caja1 .boliviaimg {
             margin: 0px 0px;
             width: 320px;
           }
@@ -457,7 +457,7 @@
 }
 
 
-@media screen and (max-width :414px )
+@media screen and (min-width :414px )
 
 {
   .play{
@@ -471,7 +471,7 @@
   .tittle2{
     top: 105%;
   }
-  .tittle2 .caja1 img 
+  .tittle2 .caja1 .boliviaimg 
   {
    
       width: auto;
@@ -499,9 +499,9 @@
   }
  
   .tittle2{
-    top: 120%;
+    top: 130%;
   }
-  .tittle2 .caja1 img 
+  .tittle2 .caja1 .boliviaimg 
   {
    
       width: auto;
