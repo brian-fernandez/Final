@@ -457,7 +457,7 @@
 }
 
 
-@media screen and (min-width :414px )
+@media screen and (max-width :414px )
 
 {
   .play{
@@ -470,6 +470,36 @@
  
   .tittle2{
     top: 105%;
+  }
+  .tittle2 .caja1 img 
+  {
+   
+      width: auto;
+      height: 300px;
+  
+  }
+  .trailer video 
+  {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:100px;
+  }
+}
+
+@media screen and (min-width :1280px )
+
+{
+  .play{
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 60%;
+    width: 100%;
+  }
+ 
+  .tittle2{
+    top: 120%;
   }
   .tittle2 .caja1 img 
   {
