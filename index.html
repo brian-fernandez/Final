@@ -50,15 +50,51 @@
                 las plaquetas y otros componentes celulares de la sangre.</h6>
         </div>
 
+        <div class="play" onclick="vervideo();">
+            <img src="img/play.png" alt=""> <span>Iniciar Video</span>
+        </div>
+
 <br>
 
-       
-
+  
     </section>
-
     <div class="trailer">
-        <!--<video class="video2" src="/videos/¿Qué es el plasma_.mp4" controls="true"></video> -->
+        <video src="./videos/¿Qué es el plasma_.mp4" controls="true"></video>
+        <img src="salir1.png" alt="" class="close" onclick="vervideo();">
     </div>
+
+
+
+
+
+<div class="tittle2">
+    <div class="caja1">
+    <h1>Toda bolivia unida</h1>
+
+    <img class="boliviaimg" src="img/bolivia.png" alt="">
+</div>
+<div class="caja2">
+    <h5>Ciudades</h5>
+    <p>En cada departamento hay ciudadanos que espera la donacion de plasma selecciona para ver la lista de cada ciudadano</p>
+    <br>
+    
+    <div class="botones">
+<button>Cochabamba</button>
+<button>Santa Cruz</button>
+<button>La paz</button>
+<button>Beni</button>
+<button>Oruro</button>
+<button>Pando</button>
+<button>Tarija</button>
+<button>Chuquisaca</button>
+<button>Potosi</button>
+</div>
+
+</div>
+</div>
+
+
+   
     <script>
         function menuToogle() {
             const menuToogle = document.querySelector('.toggleMenu');
@@ -66,6 +102,16 @@
             menuToogle.classList.toggle('active');
             navigation.classList.toggle('active');
         }
+
+        function vervideo(){
+const trailer = document.querySelector(".trailer");
+trailer.classList.toggle("active");
+
+        }
+
+
+
+        
     </script>
 
 </body>

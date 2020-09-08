@@ -65,13 +65,6 @@ header ul li a
 }
 
 
-header ul li a:hover
-{
-    border-bottom:2px solid #3586ff;
-    
-    
-    
-}
 
 
 
@@ -202,6 +195,9 @@ transform: rotate(180deg);
     animation-delay: -5s;
     top: 20px;
 }
+
+/* */
+
 @keyframes animate
 {
     0%
@@ -242,16 +238,24 @@ transform: rotate(180deg);
 .trailer
 {
    z-index:10000;
-    
-    width: 50%;
-    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background: rgba(255,255,255,0.95);
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
     
     
 }
-.trailer .video2
+.trailer video
 {
     max-width: 900px;
     outline: none;
@@ -267,4 +271,106 @@ transform: rotate(180deg);
     color: #2a2c2d;
     font-family: 'Poppins';
     font-weight: 100;
+}
+.close{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+    max-width: 25px;   
+}
+
+.trailer.active{
+    opacity: 1;
+    visibility: visible;
+}
+.play
+{
+    cursor: pointer;
+}
+.play span
+{
+    font-size: 2em;
+}
+.play img{
+    width: 50px;
+}
+.tittle2
+{
+    position: absolute;
+    top: 120%;
+    margin-top: 145px;
+    width: 100%;
+    display: flex;
+
+    
+}
+.tittle2  .caja1
+{
+   width: 50%;
+   border: 1px solid red;
+}
+.tittle2  .caja2
+{
+   width: 50%;
+   border: 1px solid red;
+}
+.tittle2  .caja1 h1
+{
+    text-align: center;
+    font-weight: 200;
+}
+.tittle2 .boliviaimg
+{
+    align-content: center;
+    
+    width: 400px;
+    height: 400px;
+    margin: 0px 25%;
+}
+.tittle2 .caja2 p{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 1em;
+}
+.tittle2 .caja2 h5{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 2em;
+}
+.tittle2 .caja2 .botones
+{
+    display: grid;
+    padding: 1px 100px;
+    align-content: center;
+    align-items: center;
+}
+.tittle2 .caja2 button
+{
+    border: none;
+    background: #3586ff;
+    color: white;
+    padding: 10px;
+    margin-bottom:10px;
+    width: 50%;
+    margin: 0px 30% 20px 30%;
+    cursor: pointer;
+   
+}
+.tittle2 .caja2 button:hover
+{
+    animation: 1s forwards botones2 ;
+}
+@keyframes botones2{
+    0%
+    {
+        transform: translateY(0px);
+        box-shadow: 0px 5px 11px rgb(0,0,0,0.5);
+    }
+    100%{
+transform: translateY(-5px);
+box-shadow: 0px 5px 11px rgb(0,0,0,0.5);
+    }
 }
