@@ -159,7 +159,7 @@ image-rendering: auto;
 {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 85%;
     background: #3586ff;
     overflow: hidden;
     top:35%;
@@ -235,6 +235,24 @@ transform: rotate(180deg);
     }
 }
 
+
+
+
+.section3
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #3586ff;
+    overflow: hidden;
+    top:120%;
+}
+
+
+
+/* */
+
+
 .container
 {
     margin: -10px 10%;
@@ -242,12 +260,76 @@ transform: rotate(180deg);
 
 .container .titulo
 {
-    font-weight: 900;
-    font-size: 4em;
+    font-weight: 200;
+    font-size: 2em;
     color: white;
-    text-shadow: 0px 0px 11px rgb(0,0,0,0.1)
+    text-shadow: 0px 0px 11px rgb(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    
 
 }
+.container span 
+{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.botones-registro
+{
+    text-align: center;
+}
+.botones-registro a 
+{
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    fill: #0984e3;
+    color: #0984e3;
+    background-color: #ffffff;
+    text-decoration: none;
+
+}
+.botones-registro a:hover
+{
+    color: #0984e3;
+    background-color: rgba(255,255,255,0.84);
+}
+
+
+
+
+
+.container2
+{
+    margin: -10px 10%;
+}
+
+.container2 .titulo
+{
+    text-align: inherit;
+    font-weight: 600;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0px 0px 11px rgb(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    
+
+}
+.container2 span 
+{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+
+
+
 
 .trailer
 {
@@ -280,7 +362,7 @@ transform: rotate(180deg);
 .parafo
 {
     font-size: 1.5em;
-    width: 500px;
+    width: 100%;
     text-align: justify;
     color: #2a2c2d;
     font-family: 'Poppins';
@@ -301,6 +383,7 @@ transform: rotate(180deg);
 .play
 {
     cursor: pointer;
+    
 }
 .play span
 {
@@ -312,7 +395,7 @@ transform: rotate(180deg);
 .tittle2
 {
     position: absolute;
-    top: 120%;
+    top: 210%;
     margin-top: 145px;
     width: 100%;
     display: flex;
@@ -363,14 +446,26 @@ transform: rotate(180deg);
 }
 .tittle2 .caja2 button
 {
-    border: none;
-    background: #3586ff;
-    color: white;
-    padding: 10px;
+    
+    
+    
+    
     margin-bottom:10px;
     width: 50%;
     margin: 0px 30% 20px 30%;
     cursor: pointer;
+
+
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    fill: #0984e3;
+    color: #0984e3;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: 1px solid;
    
 }
 .tittle2 .caja2 button:hover
@@ -413,12 +508,14 @@ box-shadow: 0px 5px 11px rgb(0,0,0,0.5);
     align-items: center;
     position: absolute;
     justify-content: center;
-    top: 270%;
+    top: 340%;
     left: 30%;
 }
 .redes-sociales h1 
 {
     font-weight: 200;
+    font-size: 20px;
+    text-align: center;
 }
 
 .redes-sociales ul
@@ -432,8 +529,8 @@ box-shadow: 0px 5px 11px rgb(0,0,0,0.5);
 {
     position: relative;
     list-style: none;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin: 0 30px;
     transform: rotate(-30deg) skew(25deg);
     background: #ccc;
@@ -497,3 +594,71 @@ box-shadow: 0px 5px 11px rgb(0,0,0,0.5);
 {
     background-color: #e4405f;
 }
+
+
+footer{
+    position: absolute;
+    top: 370%;
+    background-color:#0984e3 ;
+    width: 100%;
+    padding: 20px;
+}
+footer p 
+{
+    color: white;
+
+}
+footer .row 
+{
+    display: flex;
+}
+footer .col-1,.col-2, .col-3
+{
+    margin: 5px 30px  5px  30px;
+}
+
+footer ul{
+    position: relative;
+   
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a
+{
+    display: inline-block;
+    color: #061e41;
+    font-weight: 400;
+    margin-bottom:20px;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+footer .col-2 h3 
+{
+    color: white;
+    font-weight: 200;
+}
+
+footer ul li a:hover
+{
+    color:white;
+
+}
+.active2 
+{
+    border-bottom: 1px solid white;
+}
+footer .col-3 
+{
+    width: 50%;
+}
+footer .col-3 p 
+{
+    width: 50%;
+}
+footer .col-3 .botones-registro {
+    text-align: center;
+    width: 50%;
+}
+

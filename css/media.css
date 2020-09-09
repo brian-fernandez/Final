@@ -463,7 +463,7 @@
   .play{
     cursor: pointer;
     position: absolute;
-    top: 600px;
+    top: 80%;
     left: 20%;
     width: 100%;
   }
@@ -493,13 +493,13 @@
   .play{
     cursor: pointer;
     position: absolute;
-    top: 200px;
-    left: 60%;
+    top: 80%px;
+    left: 20%;
     width: 100%;
   }
  
   .tittle2{
-    top: 130%;
+    top: 210%;
   }
   .tittle2 .caja1 .boliviaimg 
   {
