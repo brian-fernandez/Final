@@ -1,3 +1,5 @@
+  
+
 @media screen and (max-width:1920px)
 {
   
@@ -14,10 +16,167 @@
 
 
 /* ********************************************************************************************** */
-@media screen and (max-width:800px)
-{
+@media screen and (max-width: 800px) {
+  header
+  {
+    padding: 20px 40px;
+    z-index: 10000;
+  }
+  .toggleMenu.active
+  {
   
+    position: fixed;
+    top: 40px;
+    left: 40px;
+  }
+
+ 
+    header .logo
+    {
+      position: relative;
+      max-width: 60px;
+    }
+    header ul 
+    {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      z-index: 1;
+      flex-direction: column;
+      
+      justify-content: center;
+      transition: 0.2s;
+      visibility: hidden;
+      opacity: 0;
+      text-align: initial;
+      padding: 135px;
+  }
+
+ 
+
+  header ul li a 
+  {
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 0;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 0px;
+
+        }
+  header ul li a:hover
+  {
+    color:#081538
+  }
+  .toggleMenu
+  {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+ 
+
+
+
+ 
+
+  .botones-registro a {
+    
+    margin: 10px;
 }
+
+
+  .section2 {
+    position: absolute;
+    width: 100%;
+    height: 125%;
+    background: #3586ff;
+    overflow: hidden;
+    top: 30%;
+}
+
+
+  .section3 {
+    
+    width: 100%;
+    height: 90%;
+    top: 155%;
+    display: grid;
+
+}
+.play
+{
+  margin: 10px 30%;
+}
+
+.botones-registro {
+  text-align: center;
+  display: flex;
+}
+
+.tittle2 {
+  top: 235%;
+  width: 100%;
+    display: grid;
+}
+.tittle2 .caja1
+{
+  width: 100%;
+}
+.tittle2 .caja2
+{
+  width: 100%;
+}
+.tittle2 .boliviaimg
+{
+  margin: 0px 20%;
+}
+
+.banner .imagen2 {
+  width: 100%;
+  height: 300px;
+  margin: 0px 0px;
+}
+
+.redes-sociales
+{
+  top: 535%;
+}
+
+footer 
+{
+  top: 590%;
+}
+footer .col-1, .col-2, .col-3, .col-4 {
+  margin: 4px 0px 5px 10px;
+}
+}
+
+.botones-registro a {
+  
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  
+  font-size: 0.8em;
+}
+
+
+footer .col-4 img {
+  
+  margin: 0px 0px; 
+}
+
+}
+
+
+
+
 
 
 /* ********************************************************************************************** */
