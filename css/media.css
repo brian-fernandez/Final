@@ -2,7 +2,20 @@
 
 @media screen and (max-width:1920px)
 {
-  
+  .play{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+  }
+  footer
+  {
+    top: 400%;
+  }
+  .redes-sociales
+  {
+    top: 365%;
+    left: 35%;
+  }
 }
 
 
@@ -11,7 +24,9 @@
 
 @media screen and (max-width:1280px)
 {
-  
+  .container .titulo{
+    font-size: 1.5em;
+  }
 }
 
 
