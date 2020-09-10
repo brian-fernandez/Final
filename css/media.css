@@ -192,6 +192,7 @@ footer .col-4 img {
   }
   .parafo {
     font-size: 1.3em;
+    
   }
 
   .tittle2 .boliviaimg
@@ -204,6 +205,10 @@ footer .col-4 img {
     margin: 0px
   }
 
+  footer 
+  {
+    top:405% !important;
+  }
   footer .row
   {
     display: block;
@@ -249,7 +254,7 @@ footer .col-4 img {
   padding: 0;
 }
 .redes-sociales {
-  top: 510%;
+  top: 410%;
   width: 25%;
 }
 
