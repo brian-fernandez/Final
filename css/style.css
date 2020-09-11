@@ -509,102 +509,85 @@ border: 1px solid black;
     margin: 0px 1%;
 }
 
-.redes-sociales {
-    align-items: center;
-    position: absolute;
-    justify-content: center;
-    top: 340%;
-    left: 30%;
 
-}
-.redes-sociales h1 
+.redes-sociales
 {
-    font-weight: 200;
-    font-size: 20px;
-    text-align: center;
+    display: grid;
+    position: fixed;
+    z-index: 10000;
+    top:30%;
 }
 
-.redes-sociales ul
+.redes-sociales a
+
 {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.redes-sociales ul li 
-{
-    position: relative;
-    list-style: none;
-    width: 40px;
-    height: 40px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
-}
-.redes-sociales ul li span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    transition: 0.5s;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 30px !important;
-    padding: 15px;
-    
+    text-decoration: none;
+   
 }
 
-.redes-sociales ul li:hover span:nth-child(5)
-{
-    transform: translate(40px,-40px);
-    opacity: 1;
-}
-.redes-sociales ul li:hover span:nth-child(4)
-{
-    transform: translate(30px,-30px);
-    opacity: .8;
-}
-.redes-sociales ul li:hover span:nth-child(3)
-{
-    transform: translate(20px,-20px);
-    opacity: .6;
-}
-.redes-sociales ul li:hover span:nth-child(2)
-{
-    transform: translate(10px,-10px);
-    opacity: .4;
-}
-.redes-sociales ul li:hover span:nth-child(1)
-{
-    transform: translate(0,0);
-    opacity: .2;
-}
-
-.redes-sociales ul li:nth-child(1) span
+.redes-sociales a:nth-child(1) span
 {
     background-color: #3b5999;
     box-shadow: 0 0 7px rgb(0,0,0,0.1);
+
+    width: 30px;
+    padding: 10px;
+    color: white;
+
 }
-.redes-sociales ul li:nth-child(2) span
+
+.redes-sociales a:nth-child(1) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(2) span
 {
     background-color: #41ce4d;
     box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 30px;
+    padding: 10px;
+    color: white;
 }
-.redes-sociales ul li:nth-child(3) span
+.redes-sociales a:nth-child(2) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(3) span
 {
     background-color: #55acee;
     box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 30px;
+    padding: 10px;
+    color: white;
 }
-.redes-sociales ul li:nth-child(4) span
+.redes-sociales a:nth-child(3) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(4) span
 {
     background-color: #e4405f;
     box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 30px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(4) :hover
+{
+    animation: 0.5s redes forwards;
 }
 
+@keyframes redes 
+{
+    0%
+    {
+        width: 30px;
+    }
+    100%
+    {
+        width: 40px;
+    }
+}
 
 footer{
     position: absolute;
